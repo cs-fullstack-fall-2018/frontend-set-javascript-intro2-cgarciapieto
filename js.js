@@ -24,3 +24,5 @@ document.getElementById("numberArray").innerHTML= intOfArray;
 
 
 document.getElementById("numberArray").innerHTML= "<h2> intofArray <h2>";
+
+// Almost. You commented out the pop section and don't think you pushed the h2 fix I saw earlier. From Kenn.
