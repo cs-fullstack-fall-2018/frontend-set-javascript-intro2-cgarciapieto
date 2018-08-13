@@ -1,9 +1,26 @@
-var arrayOfNubers = [30,37,38,45,47];
+// var arrayOfNames = ["carlos","claire","courtney", "jane"];
+//
+// var stringOfArray = "";
+// for(var i = 0; i < arrayOfNames.length; i++)
+// {
+//     stringOfArray += arrayOfNames[i] + ", ";
+// }
+//
+// document.getElementById("something").textContent= stringOfArray;
 
-var stringOfArray = "";
-for(var i = 0; i < arrayOfNubers.length; i++)
+
+var arrayOfNumbers = [1,2,3,4,5];
+
+var intOfArray = "";
+for(var i = 0; i < arrayOfNumbers.length; i++)
 {
-    stringOfArray += arrayOfNubers[i] + ", ";
+    intOfArray += arrayOfNumbers[i] + ", ";
 }
 
-document.getElementById("something").textContent= stringOfArray;
+document.getElementById("numberArray").innerHTML= intOfArray;
+//
+// arrayofNumbers.pop(1);
+// arrayofNumbers.pop(3);
+
+
+document.getElementById("numberArray").innerHTML= "<h2> intofArray <h2>";
